@@ -1,0 +1,16 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Python packaging / test artifacts
+*.egg-info/
+dist/
+.pytest_cache/
+
+# CMake build artifacts of the vendored trajectory_generation library
+trajectories/trajectory_generation/build/
